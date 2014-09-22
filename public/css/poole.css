@@ -304,22 +304,33 @@ tbody tr:nth-child(odd) th {
   padding-top:    1rem;
   padding-bottom: 1rem;
   margin-bottom: 3rem;
+  margin-bottom: 0;
+}
+.masthead-float-container{
+  max-width: 980px;
+  text-align: center;
+  margin: 0px;
 }
 .masthead-title {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0px;
+  float: left;
+}
+/* Override colour for title and links*/
+.masthead-title a, .masthead-links a {
   color: #505050;
 }
-.masthead-title a {
-  color: #505050;
+.masthead-links
+{
+    margin: 0px;
+    float: right;
 }
-.masthead-title small {
+/* Sets text format for tagline, links, and link seperators*/
+.masthead-links small, .masthead-title small {
   font-size: 75%;
   font-weight: 400;
   color: #c0c0c0;
   letter-spacing: 0;
 }
-
 
 /*
  * Posts and pages
