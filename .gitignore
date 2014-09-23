@@ -17,6 +17,7 @@ _site
 
 # OS or Editor folders
 .DS_Store
+.sass-cache
 ._*
 Thumbs.db
 .cache
@@ -39,3 +40,6 @@ validation-report.json
 
 # Folders to ignore
 node_modules
+
+# Ignore the config file that's used for gh-pages.
+_config.gh-pages.yml

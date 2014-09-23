@@ -1,25 +1,16 @@
-# Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+# Site settings
+title: Reef Turner
+email: reef.turner@gmail.com
+author: Reef Turner
+description: "the ramblings of a software developer"
+baseurl: /
+url: 
+google_analytics:
+animated: false
 
-# Permalinks
-permalink:        pretty
-
-# Setup
-title:            Reef Turner
-tagline:          the ramblings of a software developer
-url:              http://reefturner.com
-paginate:         4
-baseurl:          /
-author:
-  name:           Reef Turner
-  url:            https://twitter.com/stokedsurfa
-  email:          reef.turner@gmail.com
-
-# Custom vars
-version:          1.0.0
-github:
-  repo:           https://github.com/feerrenrut/
-
-# This is the list of pages to incldue in the header of the website.
-pages_list:       {'About':'/about','Archive':'/archive','Feed':'/atom.xml'}
+# Build settings
+markdown: kramdown
+permalink: pretty
+paginate: 3
+sass:
+  compressed: true
