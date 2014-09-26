@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html>
 {% include head.html %}
-<body class="{% if site.animated %}animated fade-in-down{% endif %}">
-  <div class="site-wrap">
-    {% include header.html %}
+<body class="{% if site.animated %}animated fade-in-down{% endif %}" style="
+background-color: #f6f6f6;
+background: -webkit-linear-gradient(#f6f6f6,#ededed);
+background: -moz-linear-gradient(#f6f6f6,#ededed);
+background: -o-linear-gradient(#f6f6f6,#ededed);
+background: linear-gradient(#f6f6f6,#ededed);">
+  <div class="site-wrap" style="padding-top: 4rem;">
+    <div class="wrap measure" style="background-color: #FFFFFF; max-width: 64rem;
+-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+box-shadow: 0 1px 3px rgba(0,0,0,0.3);">
+      {% include header.html %}
 
-    <div class="post p2 p-responsive wrap" role="main">
-      <div class="measure">
-        {{ content }}
+      <div class="post p2 p-responsive wrap" style="padding-top: 0rem;" role="main">
+        <div class="measure">
+          {{ content }}
+        </div>
       </div>
     </div>
   </div>
