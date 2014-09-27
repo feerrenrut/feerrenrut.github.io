@@ -15,6 +15,11 @@
 body {
   font-family: "Merriweather", "PT Serif", Georgia, "Times New Roman", serif;
   height: 100%;
+  background-color: #f6f6f6;
+  background: -webkit-linear-gradient(#f6f6f6,#ededed);
+  background: -moz-linear-gradient(#f6f6f6,#ededed);
+  background: -o-linear-gradient(#f6f6f6,#ededed);
+  background: linear-gradient(#f6f6f6,#ededed);
 }
 
 html {
@@ -44,6 +49,10 @@ body {
 
 .gist .lines {
   width: 100%;
+}
+
+.site-title {
+  font-variant: small-caps;
 }
 
 .site-header a {
@@ -122,6 +131,14 @@ body {
 
 .pagination a:hover, .pagination a:focus {
   color: #477dca;
+}
+
+.paper {
+  max-width: 64rem;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
 }
 
 .wrap .measure {
@@ -208,7 +225,6 @@ blockquote {
 blockquote footer {
   font-size: .85rem;
   font-style: normal;
-  background-color: #fff;
   color: #7a7a7a;
   border-color: transparent;
 }
@@ -260,6 +276,10 @@ h6,
     float: center;
   }
 
+  .site-title {
+    font-size: 2rem;
+  }
+
   .site-header .site-nav {
     width: 100%;
     float: left;
@@ -279,6 +299,10 @@ h6,
     margin: 0;
     padding: 0;
     font-size: 1.25rem;
+  }
+
+  .site-title {
+    font-size: 3rem;
   }
 
   .h1,
@@ -374,7 +398,6 @@ h6,
 footer,
 footer .wrap {
   color: #7a7a7a;
-  background-color: #fafafa;
   font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
   font-weight: 300;
   clear: both;
