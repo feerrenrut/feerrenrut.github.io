@@ -272,27 +272,26 @@ h6,
     text-align: center;
   }
 
-  .site-header .site-title {
-    float: center;
-  }
-
   .site-title {
     font-size: 2rem;
   }
 
   .site-header .site-nav {
-    width: 100%;
-    float: left;
-    text-align: center;
     margin-top: 0.666em;
     margin-bottom: 1.333em;
+  }
+
+  #titleParent{
+  }
+
+  #titleLeft{
+  }
+
+  #titleNav{
   }
 }
 
 @media screen and (min-width: 48em) {
-  .site-header .site-title {
-    float: left;
-  }
 
   .meta,
   .post-meta {
@@ -303,6 +302,20 @@ h6,
 
   .site-title {
     font-size: 3rem;
+  }
+
+  #titleParent{
+    position:relative;
+  }
+
+  #titleLeft{
+    position:absolute;
+    left:0px;
+    top:0px;
+  }
+
+  #titleNav{
+    float:right;
   }
 
   .h1,
