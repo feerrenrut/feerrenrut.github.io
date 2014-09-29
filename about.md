@@ -1,19 +1,22 @@
 ---
 layout: page
-title: About Pixyll
+title: About Reef Turner
 permalink: /about/
 ---
+*[Perth]: Perth, Western Australia
 
-This Jekyll theme was crafted with <3 by [John Otander](http://johnotander.com)
-([@4lpine](https://twitter.com/4lpine)).
+Reef Turner is a Software Engineer from Perth who describes himself in the
+third person. Reef likes to hack on all the latest technologies
+with the other cool kids. Although most of his experience is in C++ and C#, he
+has an interest in all things software.
 
-Checkout the [Github repository](https://github.com/johnotander/pixyll) to download it,
-request a feature, report a bug, or contribute. It's free, and open source
-([MIT](http://opensource.org/licenses/MIT)).
+Outside of his time working on software, Reef plays music in a band (perhaps
+you will catch a gig?) and enjoys surfing at local (and not so local) breaks.
+
+
+This blog was crafted with `<3` by Reef Turner.
 
 Thanks to the following:
 
-* [BASSCSS](http://basscss.com)
 * [Jekyll](http://jekyllrb.com)
-* [Refills](http://refills.bourbon.io/)
-* [Solarized](http://ethanschoonover.com/solarized)
+* [Pixyll](https://github.com/johnotander/pixyll)
