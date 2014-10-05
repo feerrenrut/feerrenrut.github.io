@@ -9,11 +9,13 @@
       <div class="post p2 p-responsive wrap" style="padding-top: 0rem;" role="main">
         <div class="measure">
           {{ content }}
+
+          {% include comments.html %}
         </div>
       </div>
     </div>
   </div>
-  
+
   {% include footer.html %}
 </body>
 </html>

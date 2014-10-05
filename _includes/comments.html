@@ -1,4 +1,11 @@
 {% if page.comments %}
+
+  <hr class="wide" />
+  <script type="text/javascript" src="/js/jquery-1.11.1.min.js"></script>
+  <script type="text/javascript" src="/js/toggleDisqus.js"></script>
+  <div class="center"><a class="commentToggle" id="showDisqus" href="#">Show Comments</a></div>
+  <div class="center"><a class="commentToggle" id="hideDisqus" href="#">Hide Comments</a></div>
+  <div id="comments">
   <!-- Add Disqus comments. -->
     <div id="disqus_thread"></div>
     <script type="text/javascript">
@@ -13,5 +20,6 @@
         })();
     </script>
     <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    <div class="dsq-brlink center "><span class="logo-disqus fa fa-gear fa-spin"></span></div>
+  </div>
 {% endif %}
