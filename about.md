@@ -15,24 +15,10 @@ you will catch a gig?) and enjoys surfing at local (and not so local) breaks.
 
 ### Make Contact
 
-<div>
+If you would like to get in contact with Reef, please do so through one of the
+following channels:
 
-<script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
-<script
-type="IN/MemberProfile"
-data-id="https://www.linkedin.com/pub/reef-turner/31/75b/421"
-data-format="hover"
-data-text="Reef Turner"
-data-related="false"></script>
-</div><div>
-<a href="https://twitter.com/ReefTurner"
-class="twitter-follow-button"
-data-show-count="false"
-data-size="large"
-data-show-screen-name="true">
-Follow @ReefTurner</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-</div>
+{% include contactMe.html %}
 
 ### Thanks
 

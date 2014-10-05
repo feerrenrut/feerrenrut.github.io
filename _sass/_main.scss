@@ -101,6 +101,26 @@ body {
   opacity: 0.88;
 }
 
+#titleNav #contact-links{
+  padding-top:5px;
+  text-align:center;
+  font-size:0.8rem;
+}
+
+#contact-links {
+  a:hover {
+    border-bottom:  none;
+    color:#000; /*for setting the color of the square*/
+  }
+  a {
+    color: #999;
+    font-size:inherit;
+  }
+}
+#faIcon {
+  color: #FFF;
+}
+
 .posts {
   margin: 0;
 }
