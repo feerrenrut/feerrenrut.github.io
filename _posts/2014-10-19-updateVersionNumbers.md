@@ -2,7 +2,7 @@
 layout:     post
 title:      Lessons on version numbers
 date:       2014-10-19
-summary:	Set / update version numbers for each Android release
+summary:    Set / update version numbers for each Android release
 categories:
 comments: true
 ---
@@ -30,7 +30,6 @@ user visible version string. It is easy and understandable to wish to have a
 target set of features complete before setting a milestone version. However this
 can cause problems further down the line.
 
-{% img "right fixedWidth" /images/posts/updateVersionNumbers/crashVersionInfo.png 153 292 %}
 Unfortunately the `versionCode` is not included in the **crash report**
 information via the Play Developer Console. Which can make it very
 hard to know which version someone was using when they encountered a problem.
