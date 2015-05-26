@@ -22,7 +22,7 @@ Based on my thoughts around this, I have started developing an idea for a mobile
 
 <img
 class="right fixedWidth"
-src="/images/posts/failingEarly/gameplay1_small.png"
+src="/images/posts/failingEarly/gameplay_path_small.png"
 height="188"
 alt="Image of the spaceship and path."
 title="Spaceship and path.">
