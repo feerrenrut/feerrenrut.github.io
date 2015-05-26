@@ -52,7 +52,7 @@ As a side note, this scheme could tie in nicely with the idea of adding  extra g
 
 ### Asteroid movement
 
-The logic controlling the spawning of the asteroids should be improved so that the gaps between the asteroids is more consistent. There should be no periods waiting for something to happen. This also applies to the start of the game, it should start promptly. There should be a short very easy period (for the player to understand the controls) then increase to a moderate difficulty. Games should be short and quickly rewarding.
+The logic controlling the spawning of the asteroids should be improved so that the gaps between the asteroids are more consistent. There should be no periods waiting for something to happen. This also applies to the start of the game, it should start promptly. There should be a short very easy period (for the player to understand the controls) then increase to a moderate difficulty. Games should be short and quickly rewarding.
 
 ### Extra goals
 
