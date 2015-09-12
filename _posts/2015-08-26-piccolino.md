@@ -102,4 +102,4 @@ The initial demo (at least on my piccolino) was a cat moving back and forth. If 
 So go get started!
 ------------------
 
-This should be enough information to get you started on development. So get to it!
+This should be enough information to get you started on development. So get to it! To see how to draw an image on the Piccolino see my [next post](/2015/09/08/DrawingImagesWithPiccolino).
