@@ -14,7 +14,7 @@ Emulator options:
 * [Genymotion](https://www.genymotion.com/)
 * Android emulator using Google APIs
 
-I wanted to get play-services working with Android 6.0 (Marshmellow, API 23). Play-services are available when using the Android emulator (for virtual devices with a target that includes "Google APIs"). It is straight forward to get started with the emulator, however my experience has been that it is slow and unstable (even with HAXM). So instead I have decided to try and install Google Apps onto Genymotion. Genymotion previously had Google apps included in their virtual device image but they were [removed due to copyright concerns](https://plus.google.com/u/0/+GenymotionEmulator/posts/jNF8Kwu5p1c).
+I wanted to get play-services working with Android 6.0 (Marshmallow, API 23). Play-services are available when using the Android emulator (for virtual devices with a target that includes "Google APIs"). It is straight forward to get started with the emulator, however my experience has been that it is slow and unstable (even with HAXM). So instead I have decided to try and install Google Apps onto Genymotion. Genymotion previously had Google apps included in their virtual device image but they were [removed due to copyright concerns](https://plus.google.com/u/0/+GenymotionEmulator/posts/jNF8Kwu5p1c).
 
 This information is relevant to the following versions:
 
